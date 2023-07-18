@@ -1,0 +1,79 @@
+/* Obsidian Custom CSS Snippet: Block Ref Preview */
+
+/* display it in the same line */
+.markdown-preview-view .internal-embed:not(.image-embed) {
+  display: inline-block;
+}
+
+/* remove bullet point */
+.internal-embed .markdown-embed-content ul {
+  display: contents;
+}
+
+.markdown-preview-view .markdown-embed,
+.markdown-preview-view .file-embed {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 5px;
+  width: fit-content;
+  border: none;
+  /* border-block: 1px solid var(--background-modifier-border); */
+  background-color: var(--scrollbar-thumb-bg);
+  border-radius: 5px;
+}
+
+.internal-embed.is-loaded .markdown-embed-link {
+  position: unset;
+  margin-left: 5px;
+  color: unset;
+  mix-blend-mode: exclusion;
+}
+
+.markdown-embed .markdown-preview-view {
+  padding: 0;
+  overflow: hidden;
+  cursor: text;
+}
+
+/* Remove tags from block reference preview */
+.markdown-preview-view .markdown-embed .tag {
+  display: none;
+}
+
+/* Remove children of the referenced bullet
+.markdown-preview-view li[data-line]:not([data-line='0']) {
+  display: none;
+} */
+
+/* Disable hyperlinking in a block ref */
+.markdown-embed .markdown-preview-view a {
+  /* color: var(--text-normal); */
+  pointer-events: none;
+  text-decoration: none;
+}
+
+/* Block Ref in editor mode */
+.cm-hmd-internal-link,
+.cm-formatting-link:not(.cm-link),
+.cm-blockid {
+  background: var(--background-modifier-border);
+}
+
+/* Source View Styles Begin */
+
+.markdown-embed .markdown-preview-sizer.markdown-preview-section {
+  min-height: unset !important;
+}
+
+.markdown-embed,
+.file-embed {
+  padding: 0 5px !important;
+  display: inline-flex;
+}
+
+.markdown-source-view.mod-cm6 .internal-embed:not(.image-embed) {
+  display: inline;
+}
+
+/* Source View Styles End */

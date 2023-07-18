@@ -1,0 +1,67 @@
+{
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:unfold-all": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "workspace:copy-path": [],
+  "markdown-importer:open": [],
+  "editor:insert-link": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Delete"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ]
+}

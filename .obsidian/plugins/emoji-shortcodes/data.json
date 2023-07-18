@@ -1,0 +1,12 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 20,
+  "history": [
+    ":white_check_mark:",
+    ":warning:",
+    ":link:",
+    ":card_file_box:"
+  ]
+}

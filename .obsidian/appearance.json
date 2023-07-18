@@ -1,0 +1,17 @@
+{
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "Tags",
+    "LaTex",
+    "File Explorer Columns",
+    "basic changes",
+    "Block Ref Preview",
+    "hover-popover"
+  ],
+  "theme": "obsidian",
+  "accentColor": "",
+  "monospaceFontFamily": "Operator Mono Lig",
+  "textFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "Poppins",
+  "translucency": false
+}

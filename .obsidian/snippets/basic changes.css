@@ -1,0 +1,62 @@
+/* Obsidian Custom CSS Snippet: basic changes */
+
+img {
+  /* 50vw and 50 vh makes sure that the entire image is visible on the screen */
+  max-width: 50vw !important;
+  max-height: 50vh !important;
+}
+
+.markdown-preview-view pre {
+  overflow: auto;
+}
+
+li:empty {
+  visibility: hidden;
+}
+
+li:not(.markdown-embed li) {
+  margin: 5px 0;
+  /* width: fit-content; */
+}
+
+.document-search-container {
+  bottom: 10px;
+}
+
+span.cm-list-1.cm-hmd-internal-link,
+.cm-s-obsidian span.cm-hmd-internal-link,
+.markdown-preview-view .internal-link {
+  color: darkgoldenrod;
+  /* filter: hue-rotate(150deg); */
+}
+
+.markdown-preview-view mark {
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+/* pre {
+  text-overflow: ellipsis;
+} */
+
+a.internal-link {
+  margin: 2px;
+}
+
+/* ---------- Sticky Header ---------- 
+Causing ISSUE with Block-ref preview - they follow same css structure as a page content
+*/
+/* .view-content > div > .markdown-preview-view {
+  padding: 0;
+  margin: 20px 30px;
+} */
+
+/* .markdown-preview-section > div:nth-child(2) {
+  position: sticky !important;
+  top: 0;
+  background: var(--background-primary);
+  z-index: 3;
+  border-bottom: var(--interactive-hover) 1px solid;
+} */
+
+/* ---------- Sticky Header End ---------- */
