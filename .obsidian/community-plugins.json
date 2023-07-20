@@ -1,5 +1,6 @@
 [
-  "cycle-through-panes",
   "url-into-selection",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-excalidraw-plugin"
 ]

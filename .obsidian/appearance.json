@@ -1,17 +1,23 @@
 {
-  "baseFontSize": 17,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "Tags",
     "LaTex",
     "File Explorer Columns",
     "basic changes",
     "Block Ref Preview",
-    "hover-popover"
+    "hover-popover",
+    "bullet lines",
+    "Clutter Free Edit",
+    "Block Ref Preview - link"
   ],
-  "theme": "obsidian",
-  "accentColor": "",
+  "theme": "system",
+  "accentColor": "#874be2",
   "monospaceFontFamily": "Operator Mono Lig",
-  "textFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono,Arima Koshi",
   "interfaceFontFamily": "Poppins",
-  "translucency": false
+  "translucency": false,
+  "cssTheme": "Obsidian Nord",
+  "showViewHeader": true,
+  "nativeMenus": false
 }

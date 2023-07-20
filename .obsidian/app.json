@@ -7,15 +7,30 @@
   "readableLineLength": false,
   "smartIndentList": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "./assets",
   "legacyEditor": false,
   "livePreview": false,
   "spellcheck": true,
   "newFileLocation": "current",
-  "showUnsupportedFiles": true,
+  "showUnsupportedFiles": false,
   "promptDelete": false,
   "strictLineBreaks": true,
   "showFrontmatter": false,
   "rightToLeft": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "userIgnoreFilters": [
+    "My-Data-Science-Notes/",
+    "templates/",
+    "archive/"
+  ],
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Tabloid",
+    "landscape": true,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "useMarkdownLinks": false,
+  "trashOption": "local",
+  "showInlineTitle": false
 }

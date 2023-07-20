@@ -27,18 +27,16 @@
         "Mod"
       ],
       "key": "B"
-    }
-  ],
-  "editor:delete-paragraph": [],
-  "app:go-back": [
+    },
     {
       "modifiers": [
         "Mod",
-        "Alt"
+        "Shift"
       ],
-      "key": "ArrowLeft"
+      "key": "B"
     }
   ],
+  "editor:delete-paragraph": [],
   "app:delete-file": [
     {
       "modifiers": [
@@ -62,6 +60,39 @@
         "Alt"
       ],
       "key": "ArrowDown"
+    }
+  ],
+  "workspace:previous-tab": [],
+  "workspace:next-tab": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
     }
   ]
 }
