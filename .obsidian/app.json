@@ -21,7 +21,10 @@
   "userIgnoreFilters": [
     "My-Data-Science-Notes/",
     "templates/",
-    "archive/"
+    "archive/",
+    "Learning Diary/Daily Notes/",
+    "campusx-learning/",
+    "*.excalidraw.md"
   ],
   "pdfExportSettings": {
     "includeName": false,
