@@ -1,5 +1,5 @@
 #daily-notes
-<p align="right">{{date}} {{time}}</p><hr>
+<p align="right">{{date:dddd, DD MMMM YYYY}} at {{time:HH:MM A}}</p><hr>
 
 ### Today's Tasks
 
@@ -22,5 +22,5 @@
 
 ---
 
->[!Pages]
+>[!summary] Daily Notes Links
 > [[{{date:DD-MM-YYYY}}]] <<= =>> [[{{date:DD-MM-YYYY}}]]
