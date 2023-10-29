@@ -1,1 +1,0 @@
-<p align="right">{{date}} at {{time}}</p><hr>

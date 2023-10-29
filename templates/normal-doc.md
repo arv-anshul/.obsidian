@@ -1,20 +1,8 @@
-#doc-tags
-<p align="right">{{date}} at {{time}}</p><hr>
-
-# {{title}}
-
-## [[Topic1]]
-
-- Explain topic in few lines.
-- Write snippet in `topic.md` file.
-
->[!summary]
-
-## [[Topic2]]
-
-- Explain topic in few lines.
-- Write snippet in `topic.md` file.
-
+---
+tags:
+  - doc-tags
+created-on: {{date}} {{time}}
+description: 👋 here!
 ---
 
->[!example] Important Links
+# {{title}}
