@@ -37,15 +37,6 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "app:delete-file": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "Delete"
-    }
-  ],
   "editor:swap-line-up": [
     {
       "modifiers": [
@@ -71,13 +62,6 @@
         "Alt"
       ],
       "key": "ArrowLeft"
-    },
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "Tab"
     }
   ],
   "app:go-forward": [
@@ -87,12 +71,6 @@
         "Alt"
       ],
       "key": "ArrowRight"
-    },
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Tab"
     }
   ]
 }

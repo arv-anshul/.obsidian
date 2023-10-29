@@ -1,6 +1,6 @@
 [
-  "url-into-selection",
   "emoji-shortcodes",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "url-into-selection"
 ]

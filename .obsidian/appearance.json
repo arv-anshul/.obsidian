@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 18,
+  "baseFontSize": 19,
   "enabledCssSnippets": [
     "Tags",
     "LaTex",
@@ -11,10 +11,10 @@
     "Clutter Free Edit",
     "Block Ref Preview - link"
   ],
-  "theme": "system",
-  "accentColor": "#874be2",
-  "monospaceFontFamily": "Operator Mono Lig",
-  "textFontFamily": "JetBrains Mono,Arima Koshi",
+  "theme": "obsidian",
+  "accentColor": "",
+  "monospaceFontFamily": "Operator Mono Lig,Menlo",
+  "textFontFamily": "Menlo,Consolas,Adelle Sans Devanagari",
   "interfaceFontFamily": "Poppins",
   "translucency": false,
   "cssTheme": "Obsidian Nord",
