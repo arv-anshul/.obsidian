@@ -1,8 +1,7 @@
 .DS_Store
 
-# Only commit important files and folders
-*
-!./.obsidian/
-!./templates/
-!./README.md
+# Obsidian config files
+.obsidian/graph.json
 .obsidian/workspace.json
+.obsidian/workspaces.json
+.trash
